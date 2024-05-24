@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*adding style for font*/
+.pr-details{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;  
+    border: 5px solid;
+}
+/*adding style for background img*/
+.hero-img{
+    background-image: url(img/img3.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    position: relative;
+}
+/*adding style for buttons*/
+#submit{
+    background-color: rgb(4, 99, 9);
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+#clear{
+    background-color: rgb(235, 29, 15);
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+#click{
+    background-color: rgb(181, 219, 12);
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.movie-review{
+    
+}
+.joe{
+    margin-top: 10px;
+    text-align: center;
+}
+.joe-pic{
+    margin-top: 20px;
+    width: 50vh;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    position: relative;
+}
+.joe-youtube{
+    background-color: black;
+    
+}
+.column1{
+    float: left;
+    width: 30%;
+    margin: 5px;
+}
+.row{
+    display: flex;
+}
+.column2{
+    font-size: medium;
+    margin-top: 20px;
+    background-color: rgb(221, 40, 140);
+    flex: 50%;
+    color: white;
+}
+  .column2 h1{
+    background-color: aqua;
+  }
+  .column2 h2{
+    background-color: rgb(230, 104, 54);
+  }
+  .column2 h3{
+    background-color: rgb(171, 206, 45);
+  }
+  .column2 h4{
+    background-color: rgb(56, 230, 21);
+  }
+  .column2 h5{
+    background-color: rgb(88, 130, 209);
+  }
+  .column2 h6{
+    background-color: rgb(201, 27, 27);
+  }
+  /*adding style for table*/
+  .sports{
+margin-top: 20px;
+width: 100%;
+height: 50%;
+  }
